@@ -1,0 +1,17 @@
+{
+  "environment": {
+    "QA": {
+      "url": "https://tutorialsninja.com/demo/",
+	  "MAX_NUMBER_OF_ATTEMPTS": 3
+	  
+    },
+    "DEV": {
+      "url": "https://tutorialsninja.com/demo/"		,
+	  "MAX_NUMBER_OF_ATTEMPTS": 3
+    },
+    "UAT": {
+      "url": "https://tutorialsninja.com/demo "		,
+	  "MAX_NUMBER_OF_ATTEMPTS":3
+    }
+  }
+}
