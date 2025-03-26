@@ -13,7 +13,7 @@ public class JSONUtitlity {
 	
 	public static Environment readJSON(Env env) {
 		Gson gson=new Gson();
-		File fileJson=new File(System.getProperty("user.dir")+"\\config\\config.json");
+		File fileJson=new File("./config/config.json");
 		FileReader fileReader = null;
 		try {
 			fileReader = new FileReader(fileJson);

@@ -20,7 +20,7 @@ public class ExcelUtitlity {
 	
 	@SuppressWarnings("null")
 	public static Iterator<User> readExcelFile(String filename) {
-		File file = new File(System.getProperty("user.dir") + "\\TestData\\"+filename);
+		File file = new File("./TestData/"+filename);
 		//File file = new File(System.getProperty("user.dir") + "\\TestData\\loginData.xlsx");
 
 		XSSFSheet loginDetailsSheet;
