@@ -160,7 +160,7 @@ public class BrowserUtilitiy {
 		Date date = new Date();
 		SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");
 		String tuneSttamp = format.format(date);
-		String path =  "./ScreanShots" + fileName + "-" + tuneSttamp + ".png";
+		String path =  "./ScreanShots/" + fileName + "-" + tuneSttamp + ".png";
 		File targetPath = new File(path);
 		try {
 			FileUtils.copyFile(screenshotAs, targetPath);
