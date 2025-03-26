@@ -16,7 +16,7 @@ public class CSVUtitlity {
 
 		System.out.println("From csv file");
 		
-		File fileCSV = new File(System.getProperty("user.dir") + "\\TestData\\"+fileName+".csv");
+		File fileCSV = new File(".//TestData//"+fileName+".csv");
 		FileReader fillReader = null;
 		CSVReader csvReader;
 		List<User> userListToReturn = new ArrayList<>();
