@@ -25,7 +25,7 @@ public class TestBase {
 	public void setUp( 
 			@Optional("chrome") String browser,
 			@Optional("false") boolean isLambdaTest,
-			@Optional("true") boolean isHeadless,  
+			@Optional("false") boolean isHeadless,  
 			ITestResult result) {
 		
 		WebDriver driverLambda = null;

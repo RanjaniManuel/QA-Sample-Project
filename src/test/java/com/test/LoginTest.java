@@ -66,7 +66,7 @@ public class LoginTest extends TestBase {
 		
 
 		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getAccountBreadCrumbText(),
-				"Account1","Account is not displayed");
+				"Account","Account is not displayed");
 
 
 
