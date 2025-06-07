@@ -10,8 +10,6 @@
 name: Test Automation
 
 on:
-  schedule:
-    - cron: "30 3 * * *"
   push:
     branches: [ "master" ]
   pull_request:
